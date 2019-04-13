@@ -18,12 +18,11 @@ class Transfer
   end
 
   def execute_transaction
-    if @staus == "pending"
+    if @status == "pending"
       @sender.balance -= @amount
       @receiver.balance += @amount
       @status = "complete"
     else
-
     end
   end
 end
