@@ -23,4 +23,8 @@ class BankAccount
       false
     end
   end
+
+  def close_account
+    @account="closed"
+  end
 end
