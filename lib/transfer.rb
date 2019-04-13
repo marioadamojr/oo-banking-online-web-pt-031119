@@ -28,5 +28,6 @@ class Transfer
       else
         #nothing
       end
+    end
   end
 end
